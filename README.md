@@ -2,14 +2,38 @@
 
 # SalivaKitTracking
 
+## Table Of Contents
+  - [Description](#description)
+  - [Links](#links)
+  - [User Story](#userstory)
+  - [Credits](#contributing)
+  - [Example](#example)
 ## Description
 Saliva Kit logging application using MYSQL, Node, Express, and Handlebars. Whenever a user submits details for a new saliva kit to be delivered, the app will display..........
 
 ## Links
-* [Githup Repository](https://github.com/jkaganovsky/SalivaKitTracking)
+* [Github](https://github.com/jkaganovsky/SalivaKitTracking)
 * [Heroku]()
 
+## User Story
+AS A USER, I want to be able to add, edit, and sort/filter saliva kit entries.
+
+I WANT to be able to view kits that are pending to be mailed out.
+
+I WANT to be able to view kits that are pending to be received back.
+
+I WANT to be able to track FedEx or USPS airbills.
+
+I WANT to be able to link kits to tracker records.
+
+I WANT to be able to save changes made to any edits done.
+
+SO THAT I can easily track kit inventory and find kits that need to be mailed out and/or received back in a list.
+
 ## Credits
+- [Jailanie Kaganovsky](http://github.com/jkaganovsky)
+
+## Example
 
 ## License
 MIT License
