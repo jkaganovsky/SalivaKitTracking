@@ -1,0 +1,25 @@
+{
+  "name": "salivakittracking",
+  "version": "1.0.0",
+  "description": "Add, edit, view, track, and filter saliva kit deliveries and receipts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkaganovsky/SalivaKitTracking.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkaganovsky/SalivaKitTracking/issues"
+  },
+  "homepage": "https://github.com/jkaganovsky/SalivaKitTracking#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^6.0.1",
+    "mysql": "^2.18.1"
+  }
+}
