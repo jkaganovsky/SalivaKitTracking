@@ -9,7 +9,7 @@
   - [Credits](#contributing)
   - [Example](#example)
 ## Description
-Saliva Kit logging application using MYSQL, Node, Express, and Handlebars. Whenever a user submits details for a new saliva kit to be delivered, the app will display..........
+Saliva Kit logging application using MongoDB, Express, REACT and Node. Whenever a user submits details for a new saliva kit to be delivered, the app will display..........
 
 ## Links
 * [Github](https://github.com/jkaganovsky/SalivaKitTracking)
