@@ -34,7 +34,7 @@
     "if-env": "^1.0.4",
     "mongoose": "^6.0.13",
     "path": "^0.12.7",
-    "update": "^0.4.2"
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
