@@ -2,9 +2,16 @@
   "name": "salivakittracking",
   "version": "1.0.0",
   "description": "Add, edit, view, track, and filter saliva kit deliveries and receipts",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -18,8 +25,19 @@
   },
   "homepage": "https://github.com/jkaganovsky/SalivaKitTracking#readme",
   "dependencies": {
+    "auto-bind": "^5.0.1",
+    "axios": "^0.24.0",
+    "concurrently": "^6.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "express-handlebars": "^6.0.1",
-    "mysql": "^2.18.1"
-  }
+    "if-env": "^1.0.4",
+    "mongoose": "^6.0.13",
+    "path": "^0.12.7",
+    "update": "^0.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "proxy": "http://localhost:3001"
 }
