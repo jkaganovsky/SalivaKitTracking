@@ -7,18 +7,22 @@ function GlobalNavbar() {
       <Container>
         <Navbar.Brand href="#home">UWMC Genetics and Solid Tumors Laboratory</Navbar.Brand>
 
-      <Navbar.Toggle />
+        <Navbar.Toggle />
 
-      <Nav className="mr-auto">
+        <Nav className="mr-auto">
           <Nav.Link href="/">Search</Nav.Link>
           <Nav.Link href="/list">List</Nav.Link>
         </Nav>
 
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>
-            Signed in as: <a href="#login">Mark Otto</a>
+            Hello <a href="#login">Mark Otto!</a>
           </Navbar.Text>
         </Navbar.Collapse>
+
+        <Nav className="mr-auto">
+          <Nav.Link href="/logout">Logout</Nav.Link>
+        </Nav>
 
       </Container>
     </Navbar>
